@@ -5,4 +5,5 @@ self: super:
 	inherit (super.callPackage ./uboot.nix {})
 		ubootRaspberryPi3_32bit
 		ubootRaspberryPi4_64bit; 
+	linux-minidisc = super.callPackage ./linux-minidisc {};
 }
