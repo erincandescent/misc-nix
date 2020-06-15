@@ -7,4 +7,5 @@ self: super:
 		ubootRaspberryPi4_64bit; 
 	linux-minidisc = super.callPackage ./linux-minidisc {};
 	py-air-control = super.callPackage ./py-air-control {};
+	airprom        = super.callPackage ./airprom        {};
 }
