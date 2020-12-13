@@ -8,4 +8,5 @@ self: super:
 	linux-minidisc = super.callPackage ./linux-minidisc {};
 	py-air-control = super.callPackage ./py-air-control {};
 	airprom        = super.callPackage ./airprom        {};
+	hdl-dump       = super.callPackage ./hdl-dump.nix   {};
 }
