@@ -35,7 +35,7 @@ in {
       after = [ "network-online.target" ];
       wantedBy = [ "multi-user.target" ];
       serviceConfig = {
-        ExecStart = ''${cfg.package.bin}/bin/consulmux ${cfg.network} ${cfg.address}'';
+        ExecStart = ''${cfg.package}/bin/consulmux ${cfg.network} ${cfg.address}'';
         Type = "simple";
         DynamicUser = true;
         Restart = "on-failure";
