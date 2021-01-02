@@ -9,4 +9,5 @@ self: super:
 	py-air-control = super.callPackage ./py-air-control {};
 	airprom        = super.callPackage ./airprom        {};
 	hdl-dump       = super.callPackage ./hdl-dump.nix   {};
+	nomad          = super.callPackage ./nomad          {};
 }
